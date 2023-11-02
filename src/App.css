@@ -1,38 +1,111 @@
-.App {
+.e1{
+    color: aqua;
+}
+
+#e2{
+    color: red;
+}
+
+.e2{
+    color: aquamarine;
+}
+
+.center{
+    width: 500px;
+    background: #111111;
+    margin: 10% auto;
+    padding: 40px 0;
+    color: #ffffff;
+    box-shadow: 0 0 20px 2px rgba(245, 239, 244, 0.5);
+  }
+  .footer {
+    background-color: #efeded;
+    color: #ffffff;
+    max-height: 2000px;
+  }
+  
+  .navbar-right {
+    float: right;
+  }
+  
+  .dropbtn {
+    background-color: #403d3d97;
+    color: rgb(255, 249, 249);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  .dropdown {
+    position: absolute;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffefef;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(1, 1, 1, 0.935);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: rgb(0, 0, 0);
+    padding: 10px 8px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #fff6f6;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #2b0013;
+  }
+  
+  *{
+    box-sizing:border-box;
+  }
+  
+  /*header {
+  background-color: #008080;
+  color: #fff;
+  padding: 20px;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  }*/
+  
+  
+  .float-container {
+  border: 1px solid #fff;
+  
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .float-child {
+  width: 50%;
+  float: left;
+  padding: 20px;
+  border: 2px solid red;
+  } 
+  
+  
+  .column {
+    float: left;
+    width: 60%;
+    padding: 10px;
+    height: 300px;
   }
-  to {
-    transform: rotate(360deg);
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
   }
-}
+  .recharge-box {
+  
+  padding: 20px;
+  text-align: center;
+  width: 150px;
+  }
+  
